@@ -1,0 +1,38 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+.App {
+  text-align: center;
+}
+
+  @font-face {
+    font-family: 'Chicle';
+    font-style: cursive;
+    font-weight: normal;
+    src: local("Chicle-Regular"),
+      url("./Chicle-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+
+  h1 {
+      font-family:  'Chicle';
+      font-weight: 200;
+      color: red;
+      font-size: 100px;
+  }
+
+  .title {
+    font-family:  'Chicle';
+    font-weight: 200;
+    color: red;
+    font-size: 110px;
+    font-style: italic;
+}
+
+
+    h2 {
+        font-family: 'Sega LOGO FONT';
+        font-weight: 200;
+        color: red;
+    }
