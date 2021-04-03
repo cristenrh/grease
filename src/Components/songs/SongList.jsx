@@ -8,6 +8,7 @@ const SongList = ({ songs }) => {
             songs.map((user, i) => {
                 return (
                 <Song
+                    key={i} 
                     song={songs[i].song} 
                     singers={songs[i].singers} 
                     

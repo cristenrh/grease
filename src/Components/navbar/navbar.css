@@ -1,0 +1,122 @@
+.header {
+    color: white;
+    background: black;
+    display: flex;
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Chicle';
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+    * {
+      cursor: pointer;
+    }
+
+    a:hover,
+    a:active,
+    .active {
+      color: red;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+.option {
+    align-items: center;
+    display: flex;
+    line-height: 1.5;
+    padding: 0.2rem 0;
+    position: relative;
+  }
+
+  .mobile-menu {
+    display: none;
+}
+
+.nav-options {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.scrolling-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+@media screen and (max-width: 800px) {
+
+    .header {
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        font-size: 24px;
+    }
+
+    .navbar-brand {
+        display: block;
+        padding-left: 12px;
+    }
+
+    .navbar-brand a {
+        color: white;
+        font-style: italic;
+        text-decoration: none;
+        font-size: 32px;
+    }
+
+
+    .mobile-menu {
+        display: block;
+        cursor: pointer;
+        color: red;
+        padding-right: 12px;
+    }
+
+    .menu-icon {
+      width: 45px;
+      height: 45px;
+    }
+
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem 1rem;
+    }
+  
+
+    .nav-options {
+      display: flex;
+      width: 100%;
+      position: absolute;
+      top: 50px;
+      right: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+      flex-direction: column;
+      list-style-type: none;
+      grid-gap: 0px;
+    }
+
+
+
+    .nav-options.open {
+      background: black;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 3;
+      align-content: center;
+      padding-left: 0px;
+    }
+
+  }
