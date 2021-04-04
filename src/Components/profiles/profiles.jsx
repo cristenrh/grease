@@ -10,7 +10,7 @@ function Profiles() {
         <div className="App main" id="profiles">
             <div className="site-banner-header">
                 <h1>
-                    Profiles
+                    Who's Who
                 </h1>
             </div>
             <ProfileList performer ={ performer} />

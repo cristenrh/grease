@@ -1,0 +1,42 @@
+.song::before {
+    content: open-quote;
+}
+.song::after {
+    content: close-quote;
+}
+
+.song {
+    font-style: italic;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 800px) {
+
+.songs span {
+    display: none;
+}
+
+.songs section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+p.scene {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.song {
+    font-size: 18px;
+    padding: 6px 0;
+    color: red;
+    font-weight: bold;;
+}
+
+}

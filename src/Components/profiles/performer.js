@@ -3,35 +3,35 @@ export const performer = [
       id: 1,
       name: 'Diego Rodriguez',
       role: 'Danny Zuko',
-      photo: '../assets/boy.png',
+      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/boy.png',
       bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 2,
       name: 'Cameron Hewett',
       role: 'Sandy',
-      photo: '../assets/cameron.png',
+      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/cameron.png',
       bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
         id: 3,
         name: 'Cara Tome',
         role: 'Rizzo',
-        photo: '../assets/girl.png',
+        photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: 4,
         name: 'Sophie Steinhauser',
         role: 'Frenchy',
-        photo: '../assets/girl.png',
+        photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: 5,
         name: 'Eva De Guelle',
         role: 'Marty',
-        photo: '../assets/girl.png',
+        photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
     {
@@ -45,28 +45,28 @@ export const performer = [
         id: 7,
         name: ' Jackson Lind',
         role: 'Kenickie',
-        photo: '../assets/boy.png',
+        photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/boy.png',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: 8,
         name: 'Nik Stading',
         role: 'Roger',
-        photo: '../assets/boy.png',
+        photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/boy.png',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: 9,
           name: 'Brady Richards',
           role: 'Doody',
-          photo: '../assets/boy.png',
+          photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/boy.png',
           bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         },
         {
             id: 11,
           name: 'Emma Portnoy',
           role: 'Sonny',
-          photo: '../assets/girl.png',
+          photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
           bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         },
         {

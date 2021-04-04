@@ -48,12 +48,12 @@ export default function Navbar() {
         </Link>
         </li>
           <li className="option">
-        <Link activeClass="active" to="songs" spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
+        <Link activeClass="active" to="songs" offset={-50} spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
           Songs
           </Link>
         </li>
         <li className="option">
-        <Link activeClass="active" to="cast" spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
+        <Link activeClass="active" to="cast" offset={-50} spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
           Cast
           </Link>
         </li>
@@ -63,8 +63,8 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="option">
-        <Link activeClass="active" to="profiles" spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
-          Profiles
+        <Link activeClass="active" to="profiles" offset={-50} spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
+          Who's Who
           </Link>
         </li>
         <li className="option">

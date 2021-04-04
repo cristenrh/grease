@@ -12,6 +12,7 @@ const Section1Styled = styled.div`
     margin-top: 0px;
     font-size: 30px;
 }
+
 `;
 
 export default function Cover() {

@@ -14,6 +14,15 @@ body::-webkit-scrollbar {
     font-weight: normal;
   }
 
+  @font-face {
+    font-family: 'Grease';
+    font-weight: normal;
+    src: local("grease"),
+      url("./grease__.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+
 
   h1 {
       font-family:  'Chicle';
@@ -32,7 +41,7 @@ body::-webkit-scrollbar {
 
 
     h2 {
-        font-family: 'Sega LOGO FONT';
+        font-family: 'Grease';
         font-weight: 200;
         color: red;
     }
