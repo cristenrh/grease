@@ -25,8 +25,15 @@ section {
   flex-direction: row;
 }
 
-
-
+p.scene {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+ .songs {
+  margin: 0 auto;
+   width: 80%;
+ }
 
 @media screen and (max-width: 800px) {
 
@@ -38,11 +45,11 @@ section {
   display: flex;
   flex-direction: column;
   margin-bottom: 32px;
+  text-align: left;
 }
 
 p.scene {
   font-size: 16px;
-  font-weight: bold;
 }
 
 p.song {
@@ -60,8 +67,8 @@ p.song {
 export default function Songs() {
   return (
     <Wrapper>
-    <SongStyled id="songs">
-      
+    <SongStyled >
+      <div id="songs"></div>
         <h1>Songs</h1>
 
           <h3>ACT I  </h3>

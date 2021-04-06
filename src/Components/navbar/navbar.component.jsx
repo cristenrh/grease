@@ -37,38 +37,43 @@ export default function Navbar() {
     <NavbarStyled>
       <div className="header">
       <div className="navbar-brand">
-          <a href="/">
-            Grease
-          </a> 
+      <Link to="cover" spy={true}  smooth={true} duration={1000} onClick={closeMobileMenu}>
+        Grease
+        </Link>
       </div>
       <ul className={click ? "nav-options open" : "nav-options" } >
         <li className="option">
-        <Link activeClass="active" to="cover" spy={true} smooth={true} duration={1000} onClick={closeMobileMenu}>
+        <Link to="cover" spy={true}  smooth={true} duration={1000} onClick={closeMobileMenu}>
         Cover
         </Link>
         </li>
           <li className="option">
-        <Link activeClass="active" to="songs" offset={-50} spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
+        <Link  to="songs" spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu} >
           Songs
           </Link>
         </li>
         <li className="option">
-        <Link activeClass="active" to="cast" offset={-50} spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
+        <Link to="cast"  spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
           Cast
           </Link>
         </li>
         <li className="option" >
-        <Link activeClass="active" to="crew" spy={true} smooth={true} duration={1000} onClick={closeMobileMenu}>
+        <Link to="crew" spy={true} smooth={true} duration={1000} onClick={closeMobileMenu}>
           Crew
           </Link>
         </li>
         <li className="option">
-        <Link activeClass="active" to="profiles" offset={-50} spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
+        <Link to="profiles" spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
           Who's Who
           </Link>
         </li>
         <li className="option">
-        <Link activeClass="active" to="acknowledgements" spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
+        <Link to="photos" spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
+          Photos
+          </Link>
+        </li>
+        <li className="option">
+        <Link  to="acknowledgements" spy={true} smooth={true} duration={1000}  onClick={closeMobileMenu}>
           Acknowledgements
         </Link>
         </li>

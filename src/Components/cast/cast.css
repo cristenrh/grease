@@ -20,13 +20,23 @@ section {
     overflow: hidden;                 
   }
 
-  .castMembers, .songs, .crewMembers, .profiles {
+  .castMembers, .crewMembers, .profiles {
     margin: 0 auto;
     width: 60%;
   }
 
+  .castMembers a, .crewMembers a {
+    color: red;
+    text-decoration: none;
+}
+
+.castMembers a:hover, .castMembers a:active,
+.crewMembers a:hover, .crewMembers a:active {
+  text-decoration: underline;
+}
+
   @media only screen and (max-width:600px) {
-  .castMembers, .songs, .crewMembers .profiles  {
+  .castMembers, .songs, .crewMembers, .profiles  {
     min-width: 350px;
     max-width: 475px;
 }

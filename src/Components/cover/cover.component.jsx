@@ -19,8 +19,9 @@ export default function Cover() {
   return (
     <Section1Styled id="cover">
       <Wrapper>
+      <h3>Westwood Warriors Theatre <br/>presents</h3>
         <div className="title">Grease</div>
-        <h4>The School Edition </h4>
+        <h4>The School Edition</h4>
       
         <p>
         Book, Music and Lyrics by<br/>

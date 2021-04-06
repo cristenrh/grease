@@ -25,10 +25,11 @@ body::-webkit-scrollbar {
 
 
   h1 {
+    color: red;
       font-family:  'Chicle';
-      font-weight: 200;
-      color: red;
       font-size: 100px;
+      font-style: italic;
+      font-weight: 200;
   }
 
   .title {
@@ -45,3 +46,9 @@ body::-webkit-scrollbar {
         font-weight: 200;
         color: red;
     }
+
+ div#songs, div#profiles, div#cast {
+      margin-top: 100px;
+      height: 100px;
+      width: 50px;
+  }
