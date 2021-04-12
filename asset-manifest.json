@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/grease/static/css/main.4048d3f2.chunk.css",
-    "main.js": "/grease/static/js/main.b0adda74.chunk.js",
-    "main.js.map": "/grease/static/js/main.b0adda74.chunk.js.map",
+    "main.css": "/grease/static/css/main.8752e9cf.chunk.css",
+    "main.js": "/grease/static/js/main.6d61d7d3.chunk.js",
+    "main.js.map": "/grease/static/js/main.6d61d7d3.chunk.js.map",
     "runtime-main.js": "/grease/static/js/runtime-main.9cda5b80.js",
     "runtime-main.js.map": "/grease/static/js/runtime-main.9cda5b80.js.map",
     "static/css/2.d5e0b2b8.chunk.css": "/grease/static/css/2.d5e0b2b8.chunk.css",
-    "static/js/2.096263b1.chunk.js": "/grease/static/js/2.096263b1.chunk.js",
-    "static/js/2.096263b1.chunk.js.map": "/grease/static/js/2.096263b1.chunk.js.map",
+    "static/js/2.54ac9cd9.chunk.js": "/grease/static/js/2.54ac9cd9.chunk.js",
+    "static/js/2.54ac9cd9.chunk.js.map": "/grease/static/js/2.54ac9cd9.chunk.js.map",
     "index.html": "/grease/index.html",
     "static/css/2.d5e0b2b8.chunk.css.map": "/grease/static/css/2.d5e0b2b8.chunk.css.map",
-    "static/css/main.4048d3f2.chunk.css.map": "/grease/static/css/main.4048d3f2.chunk.css.map",
-    "static/js/2.096263b1.chunk.js.LICENSE.txt": "/grease/static/js/2.096263b1.chunk.js.LICENSE.txt",
+    "static/css/main.8752e9cf.chunk.css.map": "/grease/static/css/main.8752e9cf.chunk.css.map",
+    "static/js/2.54ac9cd9.chunk.js.LICENSE.txt": "/grease/static/js/2.54ac9cd9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/grease/static/media/grease__.c62590db.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.9cda5b80.js",
     "static/css/2.d5e0b2b8.chunk.css",
-    "static/js/2.096263b1.chunk.js",
-    "static/css/main.4048d3f2.chunk.css",
-    "static/js/main.b0adda74.chunk.js"
+    "static/js/2.54ac9cd9.chunk.js",
+    "static/css/main.8752e9cf.chunk.css",
+    "static/js/main.6d61d7d3.chunk.js"
   ]
 }
