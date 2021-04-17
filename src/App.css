@@ -1,6 +1,12 @@
 body::-webkit-scrollbar {
   display: none;
 }
+
+html, body, #root, .App {
+  overflow-x:hidden;
+  position: relative; 
+} 
+
 .App {
   text-align: center;
 }
@@ -27,9 +33,10 @@ body::-webkit-scrollbar {
   h1 {
     color: red;
       font-family:  'Chicle';
-      font-size: 100px;
+      font-size: 45px;
       font-style: italic;
       font-weight: 200;
+
   }
 
   .title {
@@ -47,7 +54,7 @@ body::-webkit-scrollbar {
         color: red;
     }
 
- div#songs, div#profiles, div#cast {
+ div#songs, div#profiles, div#cast, div#photos {
       margin-top: 100px;
       height: 100px;
       width: 50px;

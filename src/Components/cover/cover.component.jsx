@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 import Wrapper from '../wrapper/wrapper.component';
 
@@ -29,7 +30,12 @@ export default function Cover() {
         </p>
         <p>
           Directed by<br/>
-          Mr. George Franco & Ms. Robin Harwell
+          Mr. George Franco & Ms. Robin King
+        </p>
+            <p>
+          Choreographed by<br/>
+          <Link to="Iliana Sharp" spy={true} offset={-100}  smooth={true} duration={1000}>Iliana Sharp</Link><span> &amp; </span> 
+          <Link to="Lauren Smith" spy={true} offset={-100}  smooth={true} duration={1000}>Lauren Smith</Link>
         </p>
       </Wrapper>
     </Section1Styled>

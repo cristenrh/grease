@@ -1,28 +1,44 @@
 export const photo = [
     {
       id: 1,
-      image: 'Gene Cousineau',
-      caption: 'Asst. Stage Management',
+      image: '2021-04-14-10.10.png',
+      caption: 'Rehearsal Photo',
          },
     {
       id: 2,
-      image: 'Aedan Harrod' ,
-      caption: 'Lights Operation',
+      image: 'IMG_6567.png' ,
+      caption: '...and Action!',
     },
     {
         id: 3,
-        image: 'Lois Lane',
-        caption: 'Sound',
+        image: 'IMG_6570.png',
+        caption: 'theatre',
        },
-      {
+         {
         id: 4,
-        image: 'Usain Bolt', 
-        caption: 'Sound',
-        },
-      {
+        image: 'IMG_8447.png',
+        caption: 'theatre',
+       },
+         {
         id: 5,
-        image: 'Ferris Bueller',
-        caption: 'House Management',
-        },
+        image: 'IMG_8579.png',
+        caption: 'theatre',
+       },
+         {
+        id: 6,
+        image: 'IMG_8580.png',
+        caption: 'theatre',
+       },
+         {
+        id: 7,
+        image: 'IMG_8597.png',
+        caption: 'theatre',
+       },
+         {
+        id: 8,
+        image: 'IMG_8599.png',
+        caption: 'theatre',
+       },
+   
   ];
   

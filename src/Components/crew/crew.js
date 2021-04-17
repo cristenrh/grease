@@ -1,46 +1,63 @@
 export const crew = [
     {
       id: 1,
-      name: 'Gene Cousineau',
-      role: 'Asst. Stage Management',
+      name: ['Wednesday Kollodge'],
+      role: 'Calling Stage Manager',
          },
     {
       id: 2,
-      name: 'Aedan Harrod' ,
-      role: 'Lights Operation',
+      name: [ 'Sofia Stanfield'],
+      role: 'Lights',
     },
     {
         id: 3,
-        name: 'Lois Lane',
-        name2: 'Clark Kent',
+        name: [ 'Melissa Brown','Vivek Bhatt' ],
         role: 'Sound',
        },
       {
         id: 4,
-        name: 'Usain Bolt', 
-        name2: 'Jesse Owens',
-        name3: 'Sifan Hassan',
-        role: 'Running Crew'
+        name: [ 'Aedan Harrod'],
+        role: 'Projection '
         },
       {
         id: 5,
-        name: 'Ferris Bueller',
-        role: 'House Management',
+        name: [ 'Alex Cervantes'],
+        role: 'Deck Captain',
         },
     {
       id: 6,
-      name: 'Mr. Franco\'s Tech I, II, II, IV Classes',
-      role: 'Set Build Crew',
+      name: [ 'Lexi Robinson'],
+      role: 'Props Master',
      },
     {
         id: 7,
-        name: 'Moira Rose',
-        role: 'Wardrobe Lead',
+        name: [ 'Juliana Johnson'],
+        role: 'Wardrobe Head',
            },
       {
         id: 8,
-        name: 'Mrs. Coats\' Costume II, II, IV Classes',
-        role: 'Wardrobe Crew',
+        name: [ 'Dylan Priebe', 'Luc Brown', 'Druhinh Roy', 'Cleo Steinhauser', 'Kyra Jackson', 'Saachi Coulekar', 'Skylar Horanzy'],
+        role: 'Backstage Crew',
+       },
+       {
+        id: 9,
+        name: [ 'Gabriel Paredes'],
+        role: 'Publicity Graphic Design',
+       },
+       {
+        id: 10,
+        name: [ 'Mr. Andre Clark '],
+        role: 'Sound Engineering',
+       },
+       {
+        id: 11,
+        name: [ 'Mrs. Coats & Costume II, III, IV Classes'],
+        role: 'Costume Design & Construction',
+       },
+       {
+        id: 12,
+        name: [ 'Mr. Franco & Tech II, III, IV Classes'],
+        role: 'Set Design & Construction',
        },
    
   ];

@@ -3,17 +3,20 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const castMember = ({name, name2, role}) => {
-    
+const castMember = ({name, role}) => {
+        const nameList = name.map((link) => 
+        <Link to={link} offset={-100} smooth={true} duration={1000} key={link} >{link}</Link>            
+        );
     return (
         <section>
         <p>{role}</p>
         <span>..............................................................................................................................................................</span>
-        <p> <Link to={name} offset={-100} smooth={true} duration={1000} >{name}</Link> 
-        {!!(name2)?" / ":""}
-        <Link to={name2} smooth={true} duration={1000} >{name2}</Link></p>
+        <p> 
+            { nameList }
+        </p>
         </section>
     )
 };
+
 
 export default castMember;

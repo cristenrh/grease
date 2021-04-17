@@ -20,14 +20,27 @@ section {
     overflow: hidden;                 
   }
 
-  .castMembers, .crewMembers, .profiles {
+  .castMembers, 
+  .crewMembers, 
+  .profiles, 
+#acknowledgements {
     margin: 0 auto;
     width: 60%;
   }
 
-  .castMembers a, .crewMembers a {
+  .castMembers a, 
+  .crewMembers a, 
+  #cover a {
     color: red;
     text-decoration: none;
+}
+
+.castMembers a:not(:last-child):after{
+  content: " / ";
+}
+
+.crewMembers a:not(:last-child):after  {
+  content: ", "
 }
 
 .castMembers a:hover, .castMembers a:active,

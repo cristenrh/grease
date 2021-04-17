@@ -3,25 +3,25 @@ export const songs1 = [
       id: 1,
       scene: 'Scene 1: Reunion',
       song: 'Alma Mater',
-      singers: 'Miss Lynch, Patty, Eugene'
+      singers: 'Full Company'
     },
     {
       id: 2,
       song: 'Alma Mater (Parody)',
-      singers: 'Pink Ladies, Burger Palace Boys'
+      singers: 'Pink Ladies, T-Birds'
     },
 
     {
       id: 3,
-      scene: 'Scene 2: Cafeteria & School Steps',
+      scene: 'Scene 2: Cafeteria & School Yard',
       song: 'Summer Nights',
-      singers: 'Sandy, Danny, Pink Ladies, Burger Palace Boys'
+      singers: 'Sandy, Danny, Pink Ladies, T- Birds, & School Ensemble'
     },
     {
         id: 4,
         scene: 'Scene 3: School',
         song: 'Those Magic Changes',
-        singers: 'Doody, Burger Palace Boys, Pink Ladies'
+        singers: 'Doody, T-Birds & School Ensemble'
       },
       {
         id: 5,
@@ -33,17 +33,17 @@ export const songs1 = [
         id: 6,
         scene: 'Scene 5: Street Corner',
         song: 'Greased Lightning',
-        singers: 'Kenicke, Burger Palace Boys'
+        singers: 'Kenickie, T-Birds'
     },
     {
       id: 7,
-      scene: 'Scene 6: School Yard',
+      scene: 'Scene 6: School',
       song: 'Rydell Fight Song!',
-      singers: 'Patty, Sandy and Chorus'
+      singers: 'Sandy, Patty, & Female Ensemble'
     },
     {
       id: 8,
-      scene: 'Scene 7: Park',
+      scene: 'Scene 7: School Yard',
       song: 'Mooning',
       singers: 'Roger and Jan'
     },
@@ -55,7 +55,7 @@ export const songs1 = [
       {
         id: 10,
         song: 'We Go Together',
-        singers: 'Pink Ladies, Burger Palace Boys'
+        singers: 'Full Company'
       },
 
        ]
@@ -71,24 +71,24 @@ export const songs2 = [
       {
         id: 12,
         song: 'Shakin\' at the High School Hop',
-      singers: 'Johnny Casino and Company'
+      singers: 'Full Company'
     },
      
-        {
-            id: 13,
-            song: 'Born to Hand Jive',
-            singers: 'Johnny Casino and Company'
+    {
+        id: 13,
+       song: 'Born to Hand Jive',
+       singers: 'Joanie Casino & Company'
           },
           {
             id: 14,
-            song: 'Hopelessy Devoted To You',
+            song: 'Hopelessly Devoted To You',
             singers: 'Sandy'
           },
           {
             id: 15,
-            scene: 'Scene 2: In Front of Burger Palace',
+            scene: 'Scene 2: Street',
             song: 'Beauty School Dropout',
-            singers: 'Teen Angel and Chorus'
+            singers: 'Teen Angel & Female Ensemble'
           },
         {
             id: 16,
@@ -114,15 +114,15 @@ export const songs2 = [
       },
       {
         id: 13,
-        scene: 'Scene 5: Inside the Burger Palace',
+        scene: 'Scene 5: School',
         song: 'You\'re The One That I Want',
-      singers: 'Sandy, Danny, Pink Ladies, Burger Palace Boys'
+      singers: 'Sandy, Danny, & Company'
     },
   {
     id: 14,
     scene: 'Finale',
     song: 'We Go Together',
-      singers: 'Entire Company'
+      singers: 'Full Company'
     }
 
   ];

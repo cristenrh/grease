@@ -1,10 +1,11 @@
 
 
 import React from 'react';
+import { useHistory } from "react-router-dom";
 
-const performers= ({photo, name, role, bio}) => {
+const performers= ({photo, name, nickname, role, bio}) => {
     return (
-<div  id={`${name}`} className="profiles-grid-container">
+<div  id={`${nickname}`} className="profiles-grid-container">
   <div className="Photo"> <img src ={`${photo}`}  alt = {`${name}`}  /> </div>
   <div className="Name">{name} </div>
   <div className="Role">{role}</div>
@@ -14,4 +15,4 @@ const performers= ({photo, name, role, bio}) => {
     )
 };
 
-export default performers;
+export default performers

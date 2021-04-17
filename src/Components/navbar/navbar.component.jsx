@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import { Link } from 'react-scroll';
 import './navbar.css';
-import OnScreenScrolling from '../on-screen-scrolling/on-screen-scrolling.component';
 
 import { FontAwesomeIcon as MenuIcon } from '@fortawesome/react-fontawesome';
 import { FontAwesomeIcon as CloseMenu } from '@fortawesome/react-fontawesome';

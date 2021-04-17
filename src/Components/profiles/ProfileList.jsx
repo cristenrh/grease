@@ -11,6 +11,7 @@ const ProfileList = ({ performer}) => {
                     key={i} 
                     photo={performer[i].photo}
                     name={performer[i].name} 
+                    nickname={performer[i].nickname} 
                     role={performer[i].role}
                     bio={performer[i].bio} 
                     
