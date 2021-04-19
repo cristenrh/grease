@@ -1,11 +1,8 @@
 import React from 'react';
-import Wrapper from '../wrapper/wrapper.component';
 import PhotoList from './PhotoList.jsx';
 import { photo } from './photos';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBolt } from '@fortawesome/free-solid-svg-icons'
 
 
 const PhotoStyled = styled.div`
@@ -62,12 +59,12 @@ h1 {
 
 `;
 
-const itemsLength = Array.from({ length: 8 });
+// const itemsLength = Array.from({ length: 8 });
 
-const items = itemsLength.map((photo, index) => {
-  const style = { height: 200 + index * 10 };
-  return <div className="item" loading="lazy" style={style} data-value={index + 1} />;
-});
+// const items = itemsLength.map((photo, index) => {
+//   const style = { height: 200 + index * 10 };
+//   return <div className="item" loading="lazy" style={style} data-value={index + 1} />;
+// });
 
   const Photos = () => {
       

@@ -15,7 +15,6 @@ const PhotoList = ({ photo }) => {
                     key={i} 
                     image={photo[i].image}
                     caption={photo[i].caption}
-            
                 />
                  );
                 })
