@@ -29,7 +29,7 @@ export default function Navbar() {
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => {setClick(false); console.log("click")};
+  const closeMobileMenu = () => {setClick(false);};
 
 
   return (
@@ -42,7 +42,7 @@ export default function Navbar() {
       </div>
       <ul className={click ? "nav-options open" : "nav-options" } >
         <li className="option">
-        <Link to="cover" spy={true}  smooth={true} duration={1000} onClick={closeMobileMenu}>
+        <Link to="cover" spy={true} offset={-200} smooth={true} duration={1000} onClick={closeMobileMenu}>
         Cover
         </Link>
         </li>

@@ -30,6 +30,8 @@ section {
 p.scene {
     font-size: 16px;
     font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 p.song {

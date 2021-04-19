@@ -15,6 +15,14 @@ const CastList = ({ cast }) => {
             );
         })
     }
+       <div className="key">
+                <p>
+                😎 : <strong>Rockin' Cast</strong>
+                </p>
+                <p>
+                📣  : <strong>Rydell' Cast</strong><br/>
+                </p>
+                </div>
     </div>
     );
     }

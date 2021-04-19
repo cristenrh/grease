@@ -25,7 +25,7 @@ export const songs1 = [
       },
       {
         id: 5,
-        scene: 'Scene 4: Pajama Party',
+        scene: 'Scene 4: Slumber Party',
         song: 'Freddy, My Love',
         singers: 'Marty, Pink Ladies'
       },

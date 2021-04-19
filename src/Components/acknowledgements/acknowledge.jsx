@@ -4,21 +4,32 @@ import styled from 'styled-components';
 
 
 const AcknowStyled = styled.div`
-#acknowledgements ul {
+.container {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+.container ul {
     margin-left: 0;
     padding-left: 0;
 }
 
-#acknowledgements li {
+.container li {
     padding: 6px;
 }
 
-#acknowledgements .sublist li {
+.container .sublist li {
     padding-top: 2px;
     padding-bottom: 2px;
 }
-#acknowledgements .sublist li:first-of-type {
+.container .sublist li:first-of-type {
     padding-top: 6px;
+}
+
+@media screen and (max-width: 800px) {
+ .container {
+    width: 82%;
+    }
 }
 `
 
@@ -27,12 +38,10 @@ function Acknowledge() {
     return (
         <Wrapper>
           <AcknowStyled >
-        <div className="App main" id="acknowledgements">
-            <div className="site-banner-header">
-                <h1>
-                    Acknowledgements
-                </h1>
-            </div>
+          <div id="acknowledgements"></div>
+        <div className="App main container">
+                <h1>Acknowledgements</h1>
+
 <p className="tc acknowledgements b">Westwood Theatre would like to express our gratitude to the following for their special assistance during this musical production:</p>
 <ul>
 <li>Mrs. Jana Japour</li>

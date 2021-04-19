@@ -54,7 +54,7 @@ export const performer = [
       nickname: 'Lucy Wang',
       role:'Marty/Ensemble',
       photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
-      bio: '"Lucy is a 12th grader in Musical IV. She has been active in Westwood theatre for 4 years and in musical theatre for 3 years. She would like to thank her family and friends for supporting her love of visual and performing arts as well as the entire Grease company for their hard work and amazing talent in performing such a fun show!'
+      bio: 'Lucy is a 12th grader in Musical IV. She has been active in Westwood theatre for 4 years and in musical theatre for 3 years. She would like to thank her family and friends for supporting her love of visual and performing arts as well as the entire Grease company for their hard work and amazing talent in performing such a fun show!'
     },
     {
       id: 8,
@@ -62,7 +62,7 @@ export const performer = [
       nickname: 'Suzannah Wells',
       role:'Jan/Ensemble',
       photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
-      bio: 'Suzannah is a 10th grader in Musical II. She has been involved in Westwood Theatre for about 2 years, making her debut in the ensemble of Chicago last year. Outside of musical, Suzannah is an active member in the Westwood Swim Team, an avid reader, and aspiring author. She would like to think her parents for supporting her, and of course, her dog Jack, for always willing to hear her sing.'
+      bio: 'Suzannah is a 10th grader in Musical II. She has been involved in Westwood Theatre for about 2 years, making her debut in the ensemble of Chicago last year. Outside of musical, Suzannah is an active member in the Westwood Swim Team, an avid reader, and aspiring author. She would like to thank her parents for supporting her, and of course, her dog Jack, for always willing to hear her sing.'
     },
     {
       id: 9,
@@ -264,6 +264,38 @@ export const performer = [
     },
     {
       id: 33,
+      name: 'Melissa Brown',
+      nickname: 'Melissa Brown',
+      role:'Sound',
+      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
+      bio: 'Melissa is an 11th grader in Technical Theatre III. She\'s been active in Westwood theatre for three years. She would like to thank her family and friends for their support and encouragement. '
+    },
+     {
+      id: 34,
+      name: 'Richard Aedan Harrod',
+      nickname: 'Aedan Harrod',
+      role:'Projectionist',
+      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
+      bio: 'Aedan is an 11th grader in Tech III. He has been active in Westwood theatre for 3 years. Outside of Grease, Aedan has been involved in multiple other shows on both the tech and acting side, and is one of the social media managers of Drama Club. He would like to thank the crew, his family, Drama Club, and the JD8.'
+    },
+    {
+      id: 35,
+      name: 'Alex Cervantes',
+      nickname: 'Alex Cervantes',
+      role:'Deck Captain',
+      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
+      bio: 'Alex is an 11th grader in Tech III. They have been active in Westwood theatre & dance for 3 years. Outside of tech, Alex has been involved with Colorguard. They would like to thank their family and friends for their support and encouragement.'
+    },
+    {
+      id: 36,
+      name: 'Lexi Robinson',
+      nickname: 'Lexi Robinson',
+      role:'Props Master',
+      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
+      bio: ''
+    },
+    {
+      id: 37,
       name: 'Juliana Johnson',
       nickname: 'Juliana Johnson',
       role:'Wardrobe Head',
@@ -271,7 +303,15 @@ export const performer = [
       bio: 'Juliana is an 11th grader in Directing I and Tech Theatre I. She has been active in Westwood Theatre for 6 years. Outside of shows, Juliana has been involved with Drama Club, NHS, and UIL. She would like to thank Bobert for driving her to rehearsal.'
     },
     {
-      id: 34,
+      id: 38,
+      name: 'Dylan Priebe',
+      nickname: 'Dylan Priebe',
+      role:'Backstage Crew',
+      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
+      bio: 'Dylan is an 11th grader in Musical III. He has been active in Westwood theatre for 3 years. He would like to thank his family for their support and encouragement.'
+    },
+    {
+      id: 39,
       name: 'Luc Brown',
       nickname: 'Luc Brown',
       role:'Backstage Crew',
@@ -279,7 +319,7 @@ export const performer = [
       bio: 'Luc is a 10th grader in Tech Theatre I. He has been active in Westwood theatre for 2 years. Outside of musical, Luc has been involved in French Honors Society. He would like to thank his parents and sister for their support and encouragement.'
     },
     {
-      id: 35,
+      id: 40,
       name: 'Druhinh Roy',
       nickname: 'Druhinh Roy',
       role:'Backstage Crew',
@@ -287,23 +327,7 @@ export const performer = [
       bio: 'Druhinh is a 9th grader in Tech Theatre I. It is his first year active in Westwood theatre and his first year in Tech Theatre I. Outside of musical, Druhinh has been involved in shows outside of school. He would like to thank his parents, friends, and teacher for their support and encouragement.'
     },
     {
-      id: 36,
-      name: 'Melissa Brown',
-      nickname: 'Melissa Brown',
-      role:'Sound',
-      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
-      bio: 'Melissa is an 11th grader in Technical Theatre III. She\'s been active in Westwood theatre for three years. She would like to thank her family and friends for their support and encouragement. '
-    },
-    {
-      id: 37,
-      name: 'Kyra Jackson',
-      nickname: 'Kyra Jackson',
-      role:'Backstage Crew',
-      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
-      bio: 'Kyra is a 9th grader in Musical I. They have been active in Westwood Theatre for 1 year. They would like to thank their parents and teachers for being supportive.'
-    },
-    {
-      id: 38,
+      id: 41,
       name: 'Cleo Steinhauser',
       name: 'Cleo Steinhauser',
       role:'Backstage Crew',
@@ -311,13 +335,20 @@ export const performer = [
       bio: 'Cleo is a 9th grader in Musical I. She has been active in Westwood theatre for almost one whole year! Outside of musical, Cleo has been involved with theatre conservatory, improv, piano, outreach, and dance. She would like to thank her friends and family for their support. She is very excited to be a part of Grease and hope you enjoy it!'
     },
     {
-      id: 39,
-      name: 'Richard Aedan Harrod',
-      nickname: 'Aedan Harrod',
-      role:'Projectionist',
+      id: 42,
+      name: 'Saachi Coulekar',
+      name: 'Saachi Coulekar',
+      role:'Backstage Crew',
       photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
-      bio: 'Aedan is an 11th grader in Tech III. He has been active in Westwood theatre for 3 years. Outside of Grease, Aedan has been involved in multiple other shows on both the tech and acting side, and is one of the social media managers of Drama Club. He would like to thank the crew, his family, Drama Club, and the JD8.'
-    }
-
+      bio: ''
+    },
+    {
+      id: 43,
+      name: 'Skylar Horanzy',
+      name: 'Skylar Horanzy',
+      role:'Backstage Crew',
+      photo: 'https://raw.githubusercontent.com/cristenrh/grease/master/public/images/girl.png',
+      bio: ''
+    },
   ];
   

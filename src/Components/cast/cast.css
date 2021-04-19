@@ -22,8 +22,7 @@ section {
 
   .castMembers, 
   .crewMembers, 
-  .profiles, 
-#acknowledgements {
+  .profiles {
     margin: 0 auto;
     width: 60%;
   }
@@ -39,6 +38,21 @@ section {
   content: " / ";
 }
 
+.castMembers a:not(:last-child):before{
+  content: " 😎  "; 
+  color: blue;
+  padding-right: 2px;
+}
+.castMembers a:nth-child(2):before{
+  
+   content: "📣 ";
+  color: blue;
+  padding-right: 2px;
+}
+
+.key {
+text-align: left;
+}
 .crewMembers a:not(:last-child):after  {
   content: ", "
 }

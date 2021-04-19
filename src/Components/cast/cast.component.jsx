@@ -11,9 +11,9 @@ export default function Cast() {
   <Wrapper>
     <div id="cast"></div>
             <div>
-        <h1>Cast</h1>
-        <CastList cast={ cast } />
-        </div>
+              <h1>Cast</h1>
+              <CastList cast={ cast } />
+           </div>
       </Wrapper>
    
   );

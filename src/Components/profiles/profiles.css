@@ -62,6 +62,10 @@
   .Photo img {
     max-width: 250px;
   }
+
+  .Photo {
+    padding-bottom: 8px;
+  }
   .Role { 
     text-align: left;
   }

@@ -30,6 +30,7 @@ p.scene {
   font-size: 16px;
   font-weight: bold;
 }
+
  .songs {
   margin: 0 auto;
    width: 80%;
@@ -50,6 +51,8 @@ p.scene {
 
 p.scene {
   font-size: 16px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 p.song {
