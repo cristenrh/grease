@@ -9,6 +9,7 @@ const SongList = ({ songs }) => {
                 return (
                 <Song
                     key={i} 
+                    scene={songs[i].scene} 
                     song={songs[i].song} 
                     singers={songs[i].singers} 
                     

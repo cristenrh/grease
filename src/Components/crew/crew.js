@@ -1,43 +1,71 @@
 export const crew = [
     {
       id: 1,
-      name: 'Aedan Harrod',
-      role: 'Asst. Stage Management',
+      name: ['Wednesday Kollodge'],
+      role: 'Calling Stage Manager',
+      bio: 'true'
          },
     {
       id: 2,
-      name: 'Thomas Edison' ,
-      role: 'Lights Operation',
+      name: [ 'Sofia Stanfield'],
+      role: 'Lights',
+      bio: 'true'
     },
     {
         id: 3,
-        name: 'Lois Lane & Clark Kent',
+        name: [ 'Melissa Brown','Vivek Bhatt' ],
         role: 'Sound',
+        bio: 'true'
        },
       {
         id: 4,
-        name: 'Usain Bolt, Joan Benoit, Jesse Owens, Kathrine Switzer  ',
-        role: 'Running Crew'
+        name: [ 'Aedan Harrod'],
+        role: 'Projection',
+         bio: 'true'
         },
       {
         id: 5,
-        name: 'Ferris Bueller',
-        role: 'House Management',
+        name: [ 'Alex Cervantes'],
+        role: 'Deck Captain',
+        bio: 'true'
         },
     {
       id: 6,
-      name: 'Mr. Franco\'s Tech I, II, II, IV Classes',
-      role: 'Set Build Crew',
+      name: [ 'Lexi Robinson'],
+      role: 'Props Master',
+      bio: 'true'
      },
     {
         id: 7,
-        name: 'Moira Rose',
-        role: 'Wardrobe Lead',
+        name: [ 'Juliana Johnson'],
+        role: 'Wardrobe Head',
+        bio: 'true'
            },
       {
         id: 8,
-        name: 'Mrs. Coats\' Costume II, II, IV Classes',
-        role: 'Wardrobe Crew',
+        name: [ 'Dylan Priebe', 'Luc Brown', 'Druhinh Roy', 'Cleo Steinhauser', 'Saachi Coulekar', 'Skylar Horanzy'],
+        role: 'Backstage Crew',
+        bio: 'true'
+       },
+       {
+        id: 9,
+        name: [ 'Gabriel Paredes'],
+        role: 'Publicity Graphic Design',
+       },
+       {
+        id: 10,
+        name: [ 'Mr. Andre Clark '],
+        role: 'Sound Engineering',
+       },
+       {
+        id: 11,
+        name: [ 'Mrs. Coats & Costume II, III, IV Classes'],
+        role: 'Costume Design & Construction',
+       },
+       {
+        id: 12,
+        name: [ 'Mr. Franco & Tech II, III, IV Classes'],
+        role: 'Set Design & Construction',
        },
    
   ];

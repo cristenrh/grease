@@ -2,13 +2,17 @@
 
 import React from 'react';
 
-const Song = ({song, singers}) => {
+const Song = ({song, singers, scene}) => {
     return (
+      
+      <div>
+            <p className="scene">{scene}</p>
         <section>
-        <p>{song}</p>
-        <span>..............................................................................................................................................................</span>
-        <p>{singers}</p>
+            <p className="song">{song}</p>
+            <span>..............................................................................................................................................................</span>
+            <p className="singer">{singers}</p>
         </section>
+    </div>
     )
 };
 

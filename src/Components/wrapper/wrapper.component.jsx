@@ -16,13 +16,15 @@ const WrapperStyled = styled.div`
     font-size: 45px;
   }
 
+  @media only screen and (max-width: 800px) {
+    p {
+      font-size: 16px;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
     p {
-      font-size: 13px;
-    }
-
-    h1 {
-      font-size: 30px;
+      font-size: 14px;
     }
 
   }

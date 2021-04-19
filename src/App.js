@@ -6,6 +6,7 @@ import Songs from './components/songs/songs.component';
 import Cast from './components/cast/cast.component';
 import Crew from './components/crew/crew.component';
 import Navbar from './components/navbar/navbar.component';
+import Photos from './components/photos/photos.component';
 import Acknowledge from './components/acknowledgements/acknowledge';
 import Profiles from './components/profiles/profiles';
 
@@ -18,6 +19,7 @@ function App() {
       <Cast/>
       <Crew/>
       <Profiles/>
+      <Photos/>
       <Acknowledge />
     </div>
   );

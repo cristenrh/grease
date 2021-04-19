@@ -10,13 +10,19 @@ const CastList = ({ cast }) => {
                 <CastMember
                     key={i} 
                     role={cast[i].role}
-                    name={cast[i].name} 
-                    name2={cast[i].name2} 
-                    
+                    name={cast[i].name}
                 />
             );
         })
     }
+       <div className="key">
+                <p>
+                😎 : <strong>Rockin' Cast</strong>
+                </p>
+                <p>
+                📣  : <strong>Rydell' Cast</strong><br/>
+                </p>
+                </div>
     </div>
     );
     }

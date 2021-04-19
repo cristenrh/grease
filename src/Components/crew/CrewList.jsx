@@ -10,7 +10,8 @@ const CrewList = ({ crew }) => {
                 <CrewMember
                     key={i} 
                     role={crew[i].role}
-                    name={crew[i].name}     
+                    name={crew[i].name}
+                    bio={crew[i].bio}
                 />
             );
         })
