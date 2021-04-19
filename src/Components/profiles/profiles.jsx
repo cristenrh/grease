@@ -4,7 +4,6 @@ import Wrapper from '../wrapper/wrapper.component';
 import ProfileList from './ProfileList.jsx';
 import SearchBox from './SearchBox.js';
 import { performer } from './performer';
-import Backbutton from './BackButton';
 import './profiles.css';
 
 
