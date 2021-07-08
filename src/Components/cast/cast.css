@@ -30,7 +30,7 @@ section {
   .castMembers a, 
   .crewMembers a, 
   #cover a {
-    color: red;
+    color: var(--darkred);
     text-decoration: none;
 }
 

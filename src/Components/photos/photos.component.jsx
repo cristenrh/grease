@@ -57,14 +57,11 @@ h1 {
   color: #fff;
 }
 
+h1 {
+  font-size:35px;
+}
+
 `;
-
-// const itemsLength = Array.from({ length: 8 });
-
-// const items = itemsLength.map((photo, index) => {
-//   const style = { height: 200 + index * 10 };
-//   return <div className="item" loading="lazy" style={style} data-value={index + 1} />;
-// });
 
   const Photos = () => {
       

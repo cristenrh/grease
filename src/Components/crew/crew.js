@@ -19,13 +19,13 @@ export const crew = [
        },
       {
         id: 4,
-        name: [ 'Aedan Harrod'],
+        name: ['Aedan Harrod'],
         role: 'Projection',
          bio: 'true'
         },
       {
         id: 5,
-        name: [ 'Alex Cervantes'],
+        name: ['Alex Cervantes'],
         role: 'Deck Captain',
         bio: 'true'
         },
@@ -37,7 +37,7 @@ export const crew = [
      },
     {
         id: 7,
-        name: [ 'Juliana Johnson'],
+        name: ['Juliana Johnson'],
         role: 'Wardrobe Head',
         bio: 'true'
            },

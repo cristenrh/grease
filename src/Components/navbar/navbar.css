@@ -1,6 +1,6 @@
 .header {
     color: white;
-    background: black;
+    background: var(--slategrey);
     display: flex;
     margin: 0;
     font-size: 24px;
@@ -15,7 +15,7 @@
     a:hover,
     a:active,
     .active {
-      color: red;
+      color: var(--darkred);
       cursor: pointer;
     }
 
@@ -52,6 +52,11 @@
     flex-direction: column;
   }
 
+  #carnav {
+    position: relative;
+    width: 120px;
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -78,7 +83,7 @@
     .mobile-menu {
         display: block;
         cursor: pointer;
-        color: red;
+        color: var(--darkred);
         padding-right: 12px;
     }
 
@@ -98,7 +103,7 @@
       padding: .8rem 1rem;
       text-align: left;
   }
-  
+
 
     .nav-options {
       display: flex;
@@ -113,10 +118,8 @@
       grid-gap: 0px;
     }
 
-
-
     .nav-options.open {
-      background: black;
+      background:var(--slategrey);
       right: 0;
       opacity: 1;
       transition: all 0.5s ease;

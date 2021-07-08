@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import SongList from './SongList.jsx';
 import { songs1 } from './songs';
 import { songs2 } from './songs';
-// import './songs.css';
-
 import Wrapper from '../wrapper/wrapper.component';
 
 const SongStyled = styled.div`
@@ -36,6 +34,12 @@ p.scene {
    width: 80%;
  }
 
+ main {
+  background-image: url(./lightningbolt.svg);
+  background-position: center;
+  fill:#a82424;
+ }
+
 @media screen and (max-width: 800px) {
 
 .songs span {
@@ -58,7 +62,7 @@ p.scene {
 p.song {
   font-size: 18px;
   padding: 6px 0;
-  color: red;
+  color: var(--darkred);
   font-weight: bold;;
 }
 
@@ -73,17 +77,17 @@ export default function Songs() {
     <SongStyled >
       <div id="songs"></div>
         <h1>Songs</h1>
+          <main>
+            <h3>ACT I  </h3>
+            <SongList songs={ songs1 } />
 
-          <h3>ACT I  </h3>
-          <SongList songs={ songs1 } />
+            <p>
+            - There will be a 15 minute intermission before Act II  
+            </p>
 
-          <p>
-          - There will be a 15 minute intermission before Act II  
-          </p>
-
-          <h3>ACT II  </h3> 
-          <SongList songs={ songs2 } />
-      
+            <h3>ACT II  </h3> 
+            <SongList songs={ songs2 } />
+          </main>
       </SongStyled>
        </Wrapper>
   );

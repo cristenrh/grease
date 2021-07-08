@@ -9,6 +9,7 @@ import Navbar from './components/navbar/navbar.component';
 import Photos from './components/photos/photos.component';
 import Acknowledge from './components/acknowledgements/acknowledge';
 import Profiles from './components/profiles/profiles';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Profiles/>
       <Photos/>
       <Acknowledge />
+      <Footer></Footer>
     </div>
   );
 }

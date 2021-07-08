@@ -26,6 +26,9 @@ const WrapperStyled = styled.div`
     p {
       font-size: 14px;
     }
+     h1 {
+    font-size: 35px;
+  }
 
   }
 

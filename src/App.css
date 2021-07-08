@@ -1,3 +1,10 @@
+:root {
+  --darkred: #C41C1C;
+  --logored:  #a82424;
+  --slategrey: #222;
+  --gold:  #cea74b;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -10,6 +17,9 @@ html, body, #root, .App {
 .App {
   text-align: center;
 }
+
+
+
 
   @font-face {
     font-family: 'Chicle';
@@ -29,9 +39,26 @@ html, body, #root, .App {
   }
 
 
+  @font-face {
+    font-family: 'Cabin';
+    font-weight: 700;
+    src: local("cabin"),
+      url("./assets/Cabin-Bold.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Cabin';
+    font-weight: 600;
+    src: local("cabin"),
+      url("./assets/Cabin-SemiBold.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+
 
   h1 {
-    color: red;
+    color: var(--darkred);
       font-family:  'Chicle';
       font-size: 45px;
       font-style: italic;
@@ -42,7 +69,7 @@ html, body, #root, .App {
   .title {
     font-family:  'Chicle';
     font-weight: 200;
-    color: red;
+     color: var(--darkred);
     font-size: 110px;
     font-style: italic;
 }
@@ -63,3 +90,19 @@ html, body, #root, .App {
       height: 50px;
       width: 50px;
   }
+
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 35px;
+  }
+
+  div#songs, 
+ div#profiles, 
+ div#cast, 
+ div#photos, 
+ div#acknowledgements{
+      margin-top: 50px;
+      height: 85px;
+      width: 50px;
+  }
+}

@@ -2,7 +2,6 @@ import React from 'react';
 import Wrapper from '../wrapper/wrapper.component';
 import styled from 'styled-components';
 
-
 const AcknowStyled = styled.div`
 .container {
     margin: 0 auto;
@@ -25,6 +24,21 @@ const AcknowStyled = styled.div`
 .container .sublist li:first-of-type {
     padding-top: 6px;
 }
+
+footer {
+    height: 40px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+footer a {
+    color: var(--darkred);
+}
+
 
 @media screen and (max-width: 800px) {
  .container {
@@ -64,8 +78,11 @@ function Acknowledge() {
 The Directors would also like to thank their families for their patience and support throughout the rehearsal and production process. We love you!
 </p>
         </div>
-          </AcknowStyled >
-        </Wrapper>
+       </AcknowStyled >
+         
+     </Wrapper> 
+          
+   
     )
 }
 

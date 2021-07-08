@@ -13,6 +13,8 @@ import { useState } from "react";
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
+import { ReactComponent as CarSvg } from './car.svg';
+
 
 const NavbarStyled = styled.div`
   
@@ -36,14 +38,14 @@ export default function Navbar() {
     <NavbarStyled>
       <div className="header">
       <div className="navbar-brand">
-      <Link to="cover" spy={true}  smooth={true} duration={1000} onClick={closeMobileMenu}>
-        Grease
+      <Link to="cover" spy={true}  offset={-150} smooth={true} duration={1000} onClick={closeMobileMenu}>
+           <CarSvg />
         </Link>
       </div>
       <ul className={click ? "nav-options open" : "nav-options" } >
         <li className="option">
-        <Link to="cover" spy={true} offset={-200} smooth={true} duration={1000} onClick={closeMobileMenu}>
-        Cover
+        <Link to="cover" spy={true} offset={-250} smooth={true} duration={1000} onClick={closeMobileMenu}>
+       Cover
         </Link>
         </li>
           <li className="option">

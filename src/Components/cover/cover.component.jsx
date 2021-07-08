@@ -1,13 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
+import Logo from './Logo.jsx';
+import Wrapper from '../wrapper/wrapper.component';
 import { Link } from 'react-scroll';
 
-import Wrapper from '../wrapper/wrapper.component';
+
+
+       
+
+
+
 
 const Section1Styled = styled.div`
 
 #cover {
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
   background-color: white;
@@ -27,6 +34,10 @@ const Section1Styled = styled.div`
     min-width: 300px;
 }
 
+  @media only screen and (max-width:600px) {
+
+}
+
 `;
 
 export default function Cover() {
@@ -34,22 +45,22 @@ export default function Cover() {
     <Section1Styled>
       <Wrapper>
          <div id="cover">
-      <h3>Westwood Warriors Theatre <br/>presents</h3>
-        <div className="title">Grease</div>
-        <h4>The School Edition</h4>
-      
+    <Logo></Logo>
+
+
+    
         <p>
         Book, Music and Lyrics by<br/>
       Jim Jacobs and Warren Casey
         </p>
         <p>
           Directed by<br/>
-          Mr. George Franco & Ms. Robin King
+          Mr. George Franco &amp; Ms. Robin King
         </p>
             <p>
           Choreographed by<br/>
-          <Link to="Iliana Sharp" spy={true} offset={-100}  smooth={true} duration={1000}>Iliana Sharp</Link><span> &amp; </span> 
-          <Link to="Lauren Smith" spy={true} offset={-100}  smooth={true} duration={1000}>Lauren Smith</Link>
+          <Link to='Iliana Sharp' offset={-100}  smooth={true} duration={1000}>Iliana Sharp</Link><span> &amp; </span> 
+          <Link to="Lauren Smith"  offset={-100}  smooth={true} key="Lauren Smith"   duration={1000}>Lauren Smith</Link>
         </p>
       <h3>Performance Schedule</h3>
        

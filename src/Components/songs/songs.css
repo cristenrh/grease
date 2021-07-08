@@ -37,7 +37,7 @@ p.scene {
 p.song {
     font-size: 18px;
     padding: 6px 0;
-    color: red;
+    color: var(--darkred);
     font-weight: bold;;
 }
 
